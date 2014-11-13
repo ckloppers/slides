@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Docker Introduciton</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+
+	<link rel="stylesheet" href="css/theme/night.css" id="theme">
+	<!--<link rel="stylesheet" href="css/theme/mozilla.css" id="theme">-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+
+			<section>
+				<h2>Docker Introdcution</h2>
+
+				<p>
+					<small>Corn&eacute; Kloppers</small>
+					<br>
+					<small><a href="mailto:jacobus.kloppers@betfair.com">Jacobus.Kloppers@betfair.com</a></small> 
+					<br>
+					<small>November 2014, Hobart</small>
+
+
+					<center><img src="dockerlogo.png" style="width: 50%; height: 50%"></center>
+				</p>
+
+			</section>
+
+			
+			<section>
+				<h2>Outline</h2>
+				<ul>
+					<li>Quick Docker overview - release 1.3</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Elevator pitch</h2>
+				<ul>
+					<li>Docker is an opensource engine for containers</li>
+					<li>Container technology is more than a decade old. What’s different about Docker is that it makes containers easier to use</li>
+					<li>Promises to help simplify "cloud" / environment portability</li>
+					<li>Less resource 		
+					<li>Very active FOSS project gain a lot of traction</li>
+				</ul>
+				
+			</section>			
+
+		    <section>
+		    		<h2>Dude, isn't is just a VM?</h2>
+		    		<li>Often compared to virtualization</li>
+		    		<li>virtual machine you’ll find a full operating system install with the associated overhead of virtualized device drivers, memory management, etc. </li>
+		    		<li>containers use and share the OS and device drivers of the host.</li> 
+		    		<li>containers are therefore smaller than VMs, start up much faster, and have better performance </li> 
+
+		    	<center><img src="docker-containers-vms.png" style="width: 70%; height: 70%"></center>
+		    </section>
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+
+		Reveal.initialize({
+			transition: 'fade',
+			keyboard: true,
+
+		});
+
+	</script>
+
+</body>
+</html>
